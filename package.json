@@ -4,7 +4,8 @@
   "description": "a notes app",
   "main": "note-model.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "open -a 'Google Chrome' spec.html",
+    "http-server": "node node_modules/http-server/bin/http-server"
   },
   "author": "",
   "license": "ISC",
